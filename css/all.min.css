@@ -488,7 +488,7 @@ button {
   font-size: 13px;
   max-width: 620px;
   line-height: 22px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .main-form__inner {
   display: flex;
@@ -2654,12 +2654,12 @@ button {
     width: 100%;
   }
   .hero__wrapper {
-    background-position: center bottom 400px;
+    background-position: center bottom 536px;
     background-size: 454px;
   }
   .hero-block {
     margin-bottom: 0;
-    padding-bottom: 513px;
+    padding-bottom: 480px;
   }
   .graph__image_mob {
     width: 480px;
@@ -2945,13 +2945,13 @@ button {
     font-size: 16px;
   }
   .main-form__subtitle {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   .price__inner {
     margin-right: 0;
   }
   .hero__wrapper {
-    background-position: center bottom 366px;
+    background-position: center bottom 547px;
   }
   .timer__text {
     font-size: 10px;
@@ -3338,7 +3338,10 @@ button {
     width: 150px;
     height: 150px;
   }
-}
+  .hero__wrapper {
+    background-position: center bottom 595px;
+  }
+}   
 @media (max-width: 360px) {
   .timer__head {
     margin-right: 5px;
@@ -3365,7 +3368,7 @@ button {
   }
   .hero__wrapper {
     padding-top: 10px;
-    background-position: center bottom 396px;
+    background-position: center bottom 646px;
   }
   .hero__title {
     font-size: 31px; 
